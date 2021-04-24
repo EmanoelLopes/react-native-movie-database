@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Covid19Tracker",
-    "slug": "Covid19Tracker",
+    "name": "NativeMovieDB",
+    "slug": "NativeMovieDB",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",

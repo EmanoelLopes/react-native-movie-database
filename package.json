@@ -10,7 +10,7 @@
     "test:unit": "jest --watchAll=false --verbose",
     "lint": "eslint ./",
     "lint:fix": "yarn lint --fix",
-    "prettier": "prettier ./src",
+    "prettier": "prettier ./",
     "prettier:fix": "yarn prettier --write",
     "prettier:check": "yarn prettier --check"
   },

@@ -6,7 +6,13 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject",
-    "test": "jest --watchAll"
+    "test": "jest --watchAll",
+    "test:unit": "jest --watchAll=false --verbose",
+    "lint": "eslint ./",
+    "lint:fix": "yarn lint --fix",
+    "prettier": "prettier ./src",
+    "prettier:fix": "yarn prettier --write",
+    "prettier:check": "yarn prettier --check"
   },
   "jest": {
     "preset": "jest-expo"
@@ -39,9 +45,13 @@
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
+    "@testing-library/react-native": "^7.2.0",
     "@types/react": "~16.9.35",
     "@types/react-native": "~0.63.2",
+    "husky": "^6.0.0",
     "jest-expo": "~41.0.0",
+    "lint-staged": "^10.5.4",
+    "prettier": "2.2.1",
     "typescript": "~4.0.0"
   },
   "private": true

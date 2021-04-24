@@ -9,4 +9,5 @@ Stack
 * [React Navigation](https://reactnavigation.org/)
 * [Eslint](https://eslint.org/)
 * [Prettier](https://prettier.io/)
+* [React Native Testing Library](https://testing-library.com/docs/react-native-testing-library/)
 

@@ -1,4 +1,4 @@
-# React Movie DB 🎬 
+# React Native Movie DB 🎬 
 
 Native application that consumes famous API of [The Movie DB API](https://www.themoviedb.org/)
 

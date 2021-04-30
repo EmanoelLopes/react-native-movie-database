@@ -4,6 +4,7 @@ Native application that consumes famous API of [The Movie DB API](https://www.th
 
 Stack
 * [React](https://reactjs.org/)
+* [React Native](https://reactnative.dev/)
 * [TypeScript](https://www.typescriptlang.org/)
 * [Styled Components](https://www.styled-components.com/)
 * [React Navigation](https://reactnavigation.org/)

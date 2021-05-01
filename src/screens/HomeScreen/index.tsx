@@ -3,7 +3,7 @@ import { styles } from './styles';
 
 import { Text, View } from '@components/Themed';
 
-export default function Home() {
+export default function Home():JSX.Element {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Home</Text>

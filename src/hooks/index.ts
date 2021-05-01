@@ -1,5 +1,5 @@
-import useCachedResources from './useCachedResources';
-import useColorScheme from './useColorScheme';
+import useCachedResources from '@hooks/useCacheResources';
+import useColorScheme from '@hooks/useColorScheme';
 
 export {
   useCachedResources,

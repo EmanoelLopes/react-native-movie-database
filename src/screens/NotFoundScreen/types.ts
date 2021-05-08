@@ -1,4 +1,4 @@
-export type RootStackParamList = {
+export interface RootStackParamList {
   Root: undefined;
   NotFound: undefined;
-};
+}

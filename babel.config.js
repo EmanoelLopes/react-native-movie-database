@@ -17,9 +17,21 @@ module.exports = function(api) {
             "@navigation": "./src/navigation",
             "@screens": "./src/screens",
             "@services": "./src/services",
+            "@root-types": "./src/types"
           }
         }
       ],
+      [
+        "module:react-native-dotenv", 
+        {
+          "moduleName": "@env",
+          "path": ".env",
+          "blacklist": null,
+          "whitelist": null,
+          "safe": false,
+          "allowUndefined": true
+        }
+      ]
     ],
   };
 };

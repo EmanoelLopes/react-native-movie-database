@@ -4,10 +4,10 @@ export const styles = StyleSheet.create({
   card: {
     borderRadius: 4,
     borderWidth: 1,
-    borderColor: '#333',
+    borderColor: 'rgb(8, 28, 36)',
     flex: 1,
     height: 220,
-    margin: 5,
+    marginRight: 10,
     width: 160,
   },
   image: {
@@ -22,8 +22,8 @@ export const styles = StyleSheet.create({
     textAlign: 'center',
     color: '#fff',
     fontWeight: '700',
-    backgroundColor: 'rgba(0, 0, 0, .5)',
+    backgroundColor: 'rgba(8, 28, 36, 0.5)',
     width: '100%',
-    padding: '10px',
+    padding: 10,
   },
 });

@@ -16,6 +16,7 @@
       "@containers/*": ["./src/containers/*"],
       "@constants/*": ["./src/constants/*"],
       "@hooks/*": ["./src/hooks/*"],
+      "@icons/*": ["./src/icons/*"],
       "@navigation/*": ["./src/navigation/*"],
       "@screens/*": ["./src/screens/*"],
       "@services/*": ["./src/services/*"],

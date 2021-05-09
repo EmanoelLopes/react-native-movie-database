@@ -16,6 +16,9 @@ export default function useCachedResources():boolean {
         const loadAsync = await Font.loadAsync({
           ...Ionicons.font,
           'space-mono': require('assets/fonts/SpaceMono-Regular.ttf'),
+          'source-pro-light': require('assets/fonts/SourceSansPro-Light.ttf'),
+          'source-pro-regular': require('assets/fonts/SourceSansPro-Regular.ttf'),
+          'source-pro-semibold': require('assets/fonts/SourceSansPro-SemiBold.ttf'),
         });
 
         return loadAsync;

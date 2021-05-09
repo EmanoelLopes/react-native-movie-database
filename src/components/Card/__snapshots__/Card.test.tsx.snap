@@ -4,12 +4,12 @@ exports[`[Card] should render properly 1`] = `
 <View
   style={
     Object {
-      "borderColor": "#333",
+      "borderColor": "rgb(8, 28, 36)",
       "borderRadius": 4,
       "borderWidth": 1,
       "flex": 1,
       "height": 220,
-      "margin": 5,
+      "marginRight": 10,
       "width": 160,
     }
   }
@@ -53,10 +53,10 @@ exports[`[Card] should render properly 1`] = `
     <Text
       style={
         Object {
-          "backgroundColor": "rgba(0, 0, 0, .5)",
+          "backgroundColor": "rgba(8, 28, 36, 0.5)",
           "color": "#fff",
           "fontWeight": "700",
-          "padding": "10px",
+          "padding": 10,
           "textAlign": "center",
           "width": "100%",
         }

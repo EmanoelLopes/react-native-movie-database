@@ -8,6 +8,7 @@
     "eject": "expo eject",
     "test": "jest --watchAll",
     "test:unit": "jest --watchAll=false --verbose",
+    "test:coverage": "jest --watchAll=false --silent --coverage",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "lint:fix": "eslint . --fix --ext .js,.jsx,.ts,.tsx",
     "prettier": "prettier ./",

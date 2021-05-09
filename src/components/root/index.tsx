@@ -6,7 +6,7 @@ import Home from '@screens/HomeScreen';
 export default function Root():JSX.Element | null {
   const isLoadingComplete = useCachedResources();
 
-  if (!isLoadingComplete) return null;
+  if (!(isLoadingComplete)) return null;
 
   return (
     <SafeAreaProvider>

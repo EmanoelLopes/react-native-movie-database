@@ -7,14 +7,7 @@ const params = {
   page: 1,
 };
 
-const client = axios.create({
+export const client = axios.create({
   baseURL: TMDB_BASE_URL,
   params,
 });
-
-const fetcher = async (url: string) => await client.get(url).then(res => res.data);
-
-export {
-  client,
-  fetcher,
-}

@@ -13,13 +13,14 @@
       "@env": ["./.env"],
       "assets/*": ["./assets/*"],
       "@components/*": ["./src/components/*"],
+      "@containers/*": ["./src/containers/*"],
       "@constants/*": ["./src/constants/*"],
       "@hooks/*": ["./src/hooks/*"],
       "@navigation/*": ["./src/navigation/*"],
       "@screens/*": ["./src/screens/*"],
       "@services/*": ["./src/services/*"],
-      "@utils": ["./src/utils/*"],
-      "@root-types": ["./src/types/*"]
+      "@utils/*": ["./src/utils/*"],
+      "@root-types/*": ["./src/types/*"]
     },
     "strict": true,
     "target": "esnext"

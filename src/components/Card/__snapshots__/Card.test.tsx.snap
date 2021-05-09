@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Card] should render properly 1`] = `
+<View
+  style={
+    Object {
+      "borderColor": "#333",
+      "borderRadius": 4,
+      "borderWidth": 1,
+      "flex": 1,
+      "height": 220,
+      "margin": 5,
+      "width": 160,
+    }
+  }
+>
+  <View
+    accessibilityIgnoresInvertColors={true}
+    style={
+      Object {
+        "alignItems": "center",
+        "borderRadius": 4,
+        "height": "100%",
+        "justifyContent": "flex-end",
+        "resizeMode": "cover",
+        "width": "100%",
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "uri": "https://image.tmdb.org/t/p/w500/9yBVqNruk6Ykrwc32qrK2TIE5xw.jpg",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          },
+          Object {
+            "height": "100%",
+            "width": "100%",
+          },
+          undefined,
+        ]
+      }
+    />
+    <Text
+      style={
+        Object {
+          "backgroundColor": "rgba(0, 0, 0, .5)",
+          "color": "#fff",
+          "fontWeight": "700",
+          "padding": "10px",
+          "textAlign": "center",
+          "width": "100%",
+        }
+      }
+    >
+      Mortal Kombat
+    </Text>
+  </View>
+</View>
+`;

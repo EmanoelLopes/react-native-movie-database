@@ -14,7 +14,10 @@ export default function Home():JSX.Element {
   const backdropURI = 'https://image.tmdb.org/t/p/w500';
 
   const renderItem = ({ item }) => (
-    <Card title={item.name ?? item.title} image={{ uri: `${backdropURI}${item?.poster_path ?? item?.profile_path}` }} />
+    <Card
+      title={item.name ?? item.title}
+      image={{ uri: `${backdropURI}${item?.poster_path ?? item?.profile_path}` }}
+    />
   );
 
   return (

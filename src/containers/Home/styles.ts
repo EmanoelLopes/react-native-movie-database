@@ -12,5 +12,5 @@ export const styles = StyleSheet.create({
   section: {
     paddingTop: 20,
     paddingBottom: 20,
-  }
+  },
 });

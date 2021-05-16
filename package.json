@@ -18,11 +18,6 @@
   "jest": {
     "preset": "jest-expo"
   },
-  "lint-staged": {
-    "./**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
-      "prettier --write"
-    ]
-  },
   "husky": {
     "hooks": {
       "pre-commit": "yarn lint",

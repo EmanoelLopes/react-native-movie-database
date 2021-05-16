@@ -5,7 +5,7 @@ import { styles } from './styles';
 type CardProps = {
   title: string;
   image: object;
-}
+};
 
 export function Card({ title, image, ...rest }: CardProps) {
   return (

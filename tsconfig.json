@@ -26,15 +26,13 @@
     "strict": true,
     "target": "esnext"
   },
-  "include": [
-    "./**/*",
-    "./*",
-    ".eslintrc.js"
-  ],
+  "include": ["src/**/*"],
   "exclude": [
+    "coverage",
     "node_modules",
+    ".eslintrc.js",
     "babel.config.js",
     "metro.config.js",
-    "jest.config.js"
+    "jest.config.js",
   ]
 }

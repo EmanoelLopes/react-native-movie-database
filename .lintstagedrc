@@ -1,6 +1,5 @@
 {
   "*.js": [
     "yarn prettier:check",
-    "yarn lint",
-    "yarn test:unit"
+    "yarn lint"
   ]

@@ -7,7 +7,7 @@ describe('[Card]', () => {
     title: 'Mortal Kombat',
     image: {
       uri: 'https://image.tmdb.org/t/p/w500/9yBVqNruk6Ykrwc32qrK2TIE5xw.jpg',
-    }
+    },
   };
 
   it('should render properly', () => {

@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 const colors = {
   white: '#fff',
   blue: '2e78b7',
-}
+};
 
 export const styles = StyleSheet.create({
   container: {

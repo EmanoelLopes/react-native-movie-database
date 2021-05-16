@@ -1,6 +1,10 @@
-node_modules
-.expo-shared
+.eslintrc.js
 .expo
+.expo-shared
+App.tsx
+assets
 babel.config.js
-metro.config.js
+coverage
 jest.config.js
+metro.config.js
+node_module 

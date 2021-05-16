@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Text, TouchableOpacity, View } from 'react-native';
 import { styles } from './styles';
 
-export default function NotFoundScreen({ navigation }):JSX.Element {
+export default function NotFoundScreen({ navigation }): JSX.Element {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>This screen doesn&apos;t exist.</Text>
@@ -12,5 +12,3 @@ export default function NotFoundScreen({ navigation }):JSX.Element {
     </View>
   );
 }
-
-

@@ -6,7 +6,6 @@ Stack
 * [React](https://reactjs.org/)
 * [React Native](https://reactnative.dev/)
 * [TypeScript](https://www.typescriptlang.org/)
-* [Styled Components](https://www.styled-components.com/)
 * [React Navigation](https://reactnavigation.org/)
 * [Eslint](https://eslint.org/)
 * [Prettier](https://prettier.io/)

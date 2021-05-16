@@ -13,7 +13,8 @@
     "lint:fix": "eslint . --fix --ext .js,.jsx,.ts,.tsx",
     "prettier": "prettier ./",
     "prettier:fix": "yarn prettier --write",
-    "prettier:check": "yarn prettier --check"
+    "prettier:check": "yarn prettier --check",
+    "prepare": "husky install"
   },
   "jest": {
     "preset": "jest-expo"
@@ -21,13 +22,8 @@
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
       "prettier --write"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn lint",
-      "pre-push": "yarn test:unit"
-    }
+    ],
+    "*.{js,css,md}": "prettier --write"
   },
   "dependencies": {
     "@expo/vector-icons": "^12.0.0",
